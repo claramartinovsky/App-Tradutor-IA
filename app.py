@@ -4,7 +4,7 @@ from deep_translator import GoogleTranslator
 st.markdown("""
     <style>
         body {
-            background-color: #f0f8ff; /* Azul claro */
+            background-color: #E69E9E;
             color: #333333;
         }
 
@@ -14,7 +14,7 @@ st.markdown("""
         }
 
         .stButton > button {
-            background-color: #007acc;
+            background-color: #FF4B4B;
             color: white;
             font-weight: bold;
             border-radius: 8px;
@@ -23,7 +23,7 @@ st.markdown("""
         }
 
         .stButton > button:hover {
-            background-color: #005f99;
+            background-color: #C73131;
         }
 
         .stMultiSelect div {
@@ -37,9 +37,6 @@ st.markdown("""
             font-weight: bold;
         }
 
-        hr {
-            border-top: 1px solid #cccccc;
-        }
     </style>
 """, unsafe_allow_html=True)
 
@@ -72,6 +69,7 @@ if st.button("Traduzir"):
             st.write(f'**Original:** {texto}')
             st.write(f'**Traduzido:** {traducao}')
             st.write("---")
+
 
 
 
