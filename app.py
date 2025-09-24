@@ -8,7 +8,7 @@ st.markdown("""
         }
 
         .stTextArea textarea {
-            background-color: #ffffff;
+            background-color: #E69E9E;
         }
 
         .stButton > button {
@@ -25,7 +25,7 @@ st.markdown("""
         }
 
         .stMultiSelect div {
-            background-color: #ffffff;
+            background-color: #E69E9E;
         }
 
         .title {
@@ -67,6 +67,7 @@ if st.button("Traduzir"):
             st.write(f'**Original:** {texto}')
             st.write(f'**Traduzido:** {traducao}')
             st.write("---")
+
 
 
 
