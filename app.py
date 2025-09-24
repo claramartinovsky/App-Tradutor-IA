@@ -4,7 +4,7 @@ from deep_translator import GoogleTranslator
 st.markdown("""
     <style>
         body {
-            background-color: #E69E9E;
+            background-color: #732841;
             color: black;
         }
 
@@ -68,6 +68,7 @@ if st.button("Traduzir"):
             st.write(f'**Original:** {texto}')
             st.write(f'**Traduzido:** {traducao}')
             st.write("---")
+
 
 
 
