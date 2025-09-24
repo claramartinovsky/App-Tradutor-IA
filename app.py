@@ -1,6 +1,48 @@
 import streamlit as st
 from deep_translator import GoogleTranslator
 
+st.markdown("""
+    <style>
+        body {
+            background-color: #f0f8ff; /* Azul claro */
+            color: #333333;
+        }
+
+        .stTextArea textarea {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .stButton > button {
+            background-color: #007acc;
+            color: white;
+            font-weight: bold;
+            border-radius: 8px;
+            padding: 0.5em 1em;
+            transition: background-color 0.3s;
+        }
+
+        .stButton > button:hover {
+            background-color: #005f99;
+        }
+
+        .stMultiSelect div {
+            background-color: #ffffff;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 3em;
+            color: #007acc;
+            font-weight: bold;
+        }
+
+        hr {
+            border-top: 1px solid #cccccc;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 st.title("Tradutor com Deep Translator")
 
 #Área de textos
@@ -30,6 +72,7 @@ if st.button("Traduzir"):
             st.write(f'**Original:** {texto}')
             st.write(f'**Traduzido:** {traducao}')
             st.write("---")
+
 
 
 
