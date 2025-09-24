@@ -1,10 +1,6 @@
 import streamlit as st
 from deep_translator import GoogleTranslator
 
-<style>
-background-color:pink,
-</style>
-
 st.title("Tradutor com Deep Translator")
 
 #Área de textos
@@ -34,6 +30,7 @@ if st.button("Traduzir"):
             st.write(f'**Original:** {texto}')
             st.write(f'**Traduzido:** {traducao}')
             st.write("---")
+
 
 
 
