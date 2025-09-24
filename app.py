@@ -5,7 +5,6 @@ st.markdown("""
     <style>
         body {
             background-color: #E69E9E;
-            color: #ffffff;
         }
 
         .stTextArea textarea {
@@ -69,6 +68,7 @@ if st.button("Traduzir"):
             st.write(f'**Original:** {texto}')
             st.write(f'**Traduzido:** {traducao}')
             st.write("---")
+
 
 
 
